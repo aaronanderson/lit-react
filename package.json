@@ -1,0 +1,50 @@
+{
+  "name": "lit-react",
+  "version": "1.0.0",
+  "description": "LitElement React support via preact",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/",
+    "lib/"
+  ],
+  "scripts": {
+    "type-check": "tsc --noEmit",
+    "type-check:watch": "npm run type-check -- --watch",
+    "build": "tsc",
+    "build-storybook": "build-storybook",
+    "storybook": "start-storybook -p 9001"
+  },
+  "author": "Aaron Anderson",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "lit-element": "^2.2.1",
+    "preact": "^10.0.5"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "5.3.0-beta.0",
+    "@storybook/addon-docs": "5.3.0-beta.0",
+    "@storybook/addon-knobs": "5.3.0-beta.0",
+    "@storybook/addon-links": "5.3.0-beta.0",
+    "@storybook/addon-options": "5.3.0-beta.0",
+    "@storybook/addon-storysource": "5.3.0-beta.0",
+    "@storybook/addon-viewport": "5.3.0-beta.0",
+    "@storybook/web-components": "5.3.0-beta.0",
+    "@types/webpack-env": "^1.14.0",
+    "autoprefixer": "^9.6.1",
+    "babel-loader": "^8.0.5",
+    "bootstrap": "^4.3.1",
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "lit-element": "^2.2.1",
+    "react-bootstrap": "^1.0.0-beta.15",
+    "source-map-loader": "^0.2.4",
+    "style-loader": "^1.0.0",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.6.2",
+    "typescript-lit-html-plugin": "^0.9.0"
+  }
+}
