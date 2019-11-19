@@ -1,7 +1,7 @@
 {
   "name": "lit-react",
   "version": "1.0.0",
-  "description": "LitElement React support via preact",
+  "description": "LitElement React support via PReact",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -32,19 +32,9 @@
     "@storybook/addon-viewport": "5.3.0-beta.0",
     "@storybook/web-components": "5.3.0-beta.0",
     "@types/webpack-env": "^1.14.0",
-    "autoprefixer": "^9.6.1",
-    "babel-loader": "^8.0.5",
     "bootstrap": "^4.3.1",
-    "css-loader": "^3.2.0",
-    "file-loader": "^4.2.0",
-    "html-loader": "^0.5.5",
-    "html-webpack-plugin": "^3.2.0",
     "lit-element": "^2.2.1",
     "react-bootstrap": "^1.0.0-beta.15",
-    "source-map-loader": "^0.2.4",
-    "style-loader": "^1.0.0",
-    "ts-loader": "^6.0.4",
-    "typescript": "^3.6.2",
-    "typescript-lit-html-plugin": "^0.9.0"
+    "typescript": "^3.6.2"
   }
 }

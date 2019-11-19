@@ -1,6 +1,5 @@
-import { LitElement, html } from 'lit-element';
 import { render as litRender } from 'lit-html/lib/shady-render.js';
-import { h, render, ComponentType, VNode, Attributes, ComponentChildren, RefObject, createRef, Component, Fragment } from "preact";
+import { h, render, ComponentType, VNode, Attributes, ComponentChildren, RefObject, Component } from "preact";
 import { directive, NodePart, TemplateResult } from 'lit-html';
 
 
