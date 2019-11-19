@@ -135,6 +135,7 @@ class Incrementer extends Component<{}, {}> {
 
 	counterRef: RefObject<CounterElement> = createRef();
 
+	//optional chaining not yet working with ts-loader. this.counterRef.current?.increment() doesn't complile
 	render() {
 		return <table>
 			<tr><td style={{ textAlign: "center" }}><counter-element ref={this.counterRef}></counter-element></td></tr>
